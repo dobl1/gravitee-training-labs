@@ -13,6 +13,12 @@
     ],
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "init.sh", "target": "/ks", "chmod": "+x"},
+        {"file": "docker-compose.yml", "target": "/ks", "chmod": "+x"}
+      ]
     }
   },
   "backend": {
